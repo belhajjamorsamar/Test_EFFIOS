@@ -1,0 +1,48 @@
+1.	Présenter le DNMA en quelques mots:
+Le dispositif national de mesure d'audience des ENT (DNMA) est un système de suivi et d'analyse des statistiques
+d'utilisation des plateformes d'éducation en ligne (par exemple, les plateformes de e-learning) dans le cadre de 
+l'enseignement supérieur en France
+
+
+2:definition de l'UAI :UAI signifie "Unité administrative immatriculée". 
+C'est un identifiant unique attribué à chaque établissement d'enseignement supérieur en France par le ministère de l'Education nationale. L'UAI sert à identifier de manière unique chaque établissement dans le système éducatif français et est utilisé dans différents systèmes informatiques, notamment pour la gestion des données d'inscription des étudiants et 
+pour la production de statistiques sur l'enseignement supérieur.
+
+Analyse des donnes :
+
+1:les donnes inclus :
+
+Le jeu de données DNMA inclut des données sur l'utilisation 
+des plateformes d'enseignement en ligne dans le cadre de l'enseignement 
+supérieur en France. Il peut inclure des informations telles que :
+UAI,le nom de l'établissement,letype d'établissement,le nombre de sessions, le nombre de pages vues, 
+le temps passé sur les plateformes, la période de mesure, duree_autreNavigateur...
+
+
+
+
+
+2_b.	Déterminer les 3 catégories de colonnes selon leur nature?
+Les colonnes dans le jeu de données DNMA peuvent être regroupées en trois catégories selon leur nature :
+
+Identifiants : Cette categorie comprend les colonnes qui identifient de manière unique les établissements d'enseignement supérieur et les dates de mesure.
+ comme UAI 
+Mesures quantitative : Cette catégorie comprend les colonnes qui presente des mesures quantitatives
+sur l'utilisation des plateformes d'enseignement en ligne, telles que le nombre d'utilisateurs actifs,
+ le nombre de sessions, le nombre de pages vues ect...
+
+Mesures de temps : Cette catégorie comprend les colonnes qui fournissent des mesures de temps, telles que la date de la mesure. Les informations de temps permettent de suivre l'utilisation des plateformes d'enseignement en ligne 
+au fil du temps et de voir comment les habitudes d'utilisation évoluent.
+
+3-les métriques et dimensions :
+les metriques ou bien les mesures:
+Nombre d'utilisateurs actifs,Nombre de sessions,Nombre de pages vues,Temps passé sur les plateformes ...
+
+les dimensions: Date ,UAI ,type d'appareil utilisé,type de navigateur utilisé ou bien fonction de l'utilisateur (étudiant, enseignant, etc.)
+
+
+
+
+
+
+
