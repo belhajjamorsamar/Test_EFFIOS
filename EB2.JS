@@ -31,7 +31,7 @@ fetch("https://data.education.gouv.fr/api/records/1.0/search/?dataset=fr-en-dnma
         if (result[year][month] === undefined) {
           result[year][month] = [];
         }
-        result[year][month].push(data[i]);
+        
       }
     }
 
