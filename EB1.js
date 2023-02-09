@@ -35,11 +35,19 @@ let dataDisplay=variable.map((object)=>{
      info.nbr_visite =10 ;
      info.semaine = object.fields.debutsemaine;
      weekData.push({info});
+     
+     // Trier le tableau en fonction du nombre de visites
      weekData.sort((a, b) => b.info.semaine - a.info.semaine);
+
+     // Extraire les 3 premières semaines ayant le plus grand nombre de visites
      const top3Weeks = weekData.slice(0, 3);
-     console.log(top3Weeks);
-
-
+     tableData+=`
+     <tr>
+     <td>14416884</td>
+     <td>${top3Weeks.semaine}</td>
+     </td>${top3Weeks.nbr_visite}</td>
+     </tr>`
 });
-}
+document.getElementById("table_body").innerHTML=tableData;
+} 
 displayWeek();
